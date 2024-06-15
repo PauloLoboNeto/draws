@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-15T22:51:02.469Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="7_GVdiS9q-Xqs6weJWbM" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-15T23:12:00.734Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="liNxS2B9Wpu3VuloLFg9" version="24.0.7" type="github">
   <diagram name="Page-1" id="i5VR9AJsoH-MjdWXSdOB">
-    <mxGraphModel dx="2135" dy="1056" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1354" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -102,8 +102,77 @@
         <mxCell id="Sdr2zLsc1WxpFZBjnPRW-32" value="&lt;p&gt;&lt;strong&gt;Proteção por Cookie HTTPOnly&lt;/strong&gt;:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Embora o token CSRF seja geralmente enviado como um cookie, ele deve ser configurado como &lt;code&gt;HttpOnly&lt;/code&gt; para que não possa ser acessado via JavaScript. Isso reduz a possibilidade de um atacante conseguir acessar o token via scripts maliciosos.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1010" y="2070.41" width="340" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-33" value="Front" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1870" y="1670" width="120" height="170" as="geometry" />
+        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Sdr2zLsc1WxpFZBjnPRW-33" target="Sdr2zLsc1WxpFZBjnPRW-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-36" value="request" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Sdr2zLsc1WxpFZBjnPRW-35">
+          <mxGeometry x="-0.1817" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-33" value="browser" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1810" y="1510" width="120" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Sdr2zLsc1WxpFZBjnPRW-34" target="Sdr2zLsc1WxpFZBjnPRW-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2250" y="1460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-41" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Sdr2zLsc1WxpFZBjnPRW-38">
+          <mxGeometry x="-0.0212" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sdr2zLsc1WxpFZBjnPRW-34" target="Sdr2zLsc1WxpFZBjnPRW-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-45" value="2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Sdr2zLsc1WxpFZBjnPRW-44">
+          <mxGeometry x="0.2566" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-47" value="send id session and csrf via cookie httponly" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Sdr2zLsc1WxpFZBjnPRW-34" target="Sdr2zLsc1WxpFZBjnPRW-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2050" y="1640" />
+              <mxPoint x="2050" y="1640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-34" value="backend" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2190" y="1510" width="120" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-37" value="generatesession" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2400" y="1440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-39" value="appserver/ou redis/ ou bd" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2430" y="1600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Sdr2zLsc1WxpFZBjnPRW-34" target="Sdr2zLsc1WxpFZBjnPRW-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2410" y="1640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-42" value="3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Sdr2zLsc1WxpFZBjnPRW-40">
+          <mxGeometry x="-0.8185" y="4" relative="1" as="geometry">
+            <mxPoint x="41" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-43" value="generate csrf&lt;br&gt;use httponly" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2400" y="1520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-48" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.certificate;fillColor=#5294CF;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2150" y="1509.5" width="33" height="46.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-49" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.certificate;fillColor=#5294CF;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="1633.5" width="33" height="46.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-50" value="Importante bloquear XSS(Sanitização/higienização); obter o csrf e enviar nas próximas requests" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="1440" width="230" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
