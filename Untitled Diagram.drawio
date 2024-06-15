@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-15T22:35:53.215Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="D-aztojR1YTsoJbUz6W0" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-15T22:37:04.953Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="RcJ1vr6iMzqzphAwpGqz" version="24.0.7" type="github">
   <diagram name="Page-1" id="i5VR9AJsoH-MjdWXSdOB">
     <mxGraphModel dx="1522" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -30,6 +30,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-16" value="&amp;nbsp;publickey" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Sdr2zLsc1WxpFZBjnPRW-12">
+          <mxGeometry x="-0.3094" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Sdr2zLsc1WxpFZBjnPRW-7" value="Servidor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="1890" width="120" height="170" as="geometry" />
         </mxCell>
@@ -43,6 +48,26 @@
         </mxCell>
         <mxCell id="Sdr2zLsc1WxpFZBjnPRW-8" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="-70" y="1945" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sdr2zLsc1WxpFZBjnPRW-17" target="Sdr2zLsc1WxpFZBjnPRW-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-17" value="Servidor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="2105" width="120" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Sdr2zLsc1WxpFZBjnPRW-18" target="Sdr2zLsc1WxpFZBjnPRW-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-20" value="get https:// + publickey" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Sdr2zLsc1WxpFZBjnPRW-19">
+          <mxGeometry x="-0.3748" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-18" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="2160" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-21" value="decript privatekey" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="2105" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
