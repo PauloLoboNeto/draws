@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-16T17:08:12.051Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="PC5pxFvE7g_dh8IkVGNM" version="24.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-16T17:13:21.578Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="VMAbTR956WqfjsNlez2I" version="24.5.4" type="github">
   <diagram name="Page-1" id="i5VR9AJsoH-MjdWXSdOB">
-    <mxGraphModel dx="1727" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1992" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -305,6 +305,9 @@
         </mxCell>
         <mxCell id="WBDVUZCdiRR4jPYFwASW-2" value="OAUTH - Client Credentials" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="2910" y="1870" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WBDVUZCdiRR4jPYFwASW-4" value="&lt;div&gt;OAuth 2.0:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. **Resource Owner**:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- **Exemplo**: Maria, uma usuária de um serviço de streaming de música. Ela é a proprietária dos dados (playlist, histórico de músicas ou preferências) que a aplicação de streaming pode acessar com a devida autorização.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2. **Client**:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- **Exemplo**: A aplicação de streaming de música que Maria usa no seu smartphone. Esta aplicação solicita acesso aos recursos protegidos (dados da playlist de Maria) em nome de Maria.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3. **Resource Server**:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- **Exemplo**: O servidor da API do serviço de streaming de música que hospeda os dados protegidos, como as playlists e o histórico de músicas de Maria.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;4. **Authorization Server**:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- **Exemplo**: Auth0, que autentica Maria quando ela faz login e emite um token de acesso que permite à aplicação de streaming de música acessar os dados dela hospedados no servidor da API.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;5. **User Agent**:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- **Exemplo**: O navegador que Maria usa para acessar a interface web do serviço de streaming de música, ou a aplicação nativa do serviço instalada no seu smartphone. Este agente é usado por Maria para interagir com o cliente (aplicação de streaming).&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2800" y="1510" width="1400" height="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
