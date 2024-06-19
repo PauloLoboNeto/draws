@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-16T17:13:21.578Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="VMAbTR956WqfjsNlez2I" version="24.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-19T00:59:44.385Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="5BuI1Rx_h7VVdnq50QP2" version="24.5.4" type="github">
   <diagram name="Page-1" id="i5VR9AJsoH-MjdWXSdOB">
-    <mxGraphModel dx="1992" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1680" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -182,132 +182,213 @@
         <mxCell id="Sdr2zLsc1WxpFZBjnPRW-52" value="Valida XSS" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="2190" y="1810" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Sdr2zLsc1WxpFZBjnPRW-53" target="Sdr2zLsc1WxpFZBjnPRW-55" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="2310" y="2150" />
-              <mxPoint x="2310" y="2150" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-60" value="2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Sdr2zLsc1WxpFZBjnPRW-59" vertex="1" connectable="0">
-          <mxGeometry x="0.1419" y="-1" relative="1" as="geometry">
-            <mxPoint x="1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-61" value="request the token access with #clientid + #scope" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Sdr2zLsc1WxpFZBjnPRW-59" vertex="1" connectable="0">
-          <mxGeometry x="-0.3307" y="1" relative="1" as="geometry">
-            <mxPoint x="-99" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-62" value="send grant token 3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Sdr2zLsc1WxpFZBjnPRW-53" target="Sdr2zLsc1WxpFZBjnPRW-54" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="Sdr2zLsc1WxpFZBjnPRW-53" target="Sdr2zLsc1WxpFZBjnPRW-55" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-73" value="7 send gran authorizes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Sdr2zLsc1WxpFZBjnPRW-72" vertex="1" connectable="0">
-          <mxGeometry x="0.1777" y="-2" relative="1" as="geometry">
-            <mxPoint x="38" y="-8" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-53" value="APP X" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2290" y="2180.41" width="120" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1990" y="2220" as="sourcePoint" />
-            <mxPoint x="2290" y="2220" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-57" value="Login with third app" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Sdr2zLsc1WxpFZBjnPRW-56" vertex="1" connectable="0">
-          <mxGeometry x="-0.2367" y="4" relative="1" as="geometry">
-            <mxPoint x="1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-58" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Sdr2zLsc1WxpFZBjnPRW-56" vertex="1" connectable="0">
-          <mxGeometry x="0.2633" y="2" relative="1" as="geometry">
-            <mxPoint x="1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Sdr2zLsc1WxpFZBjnPRW-54" target="Sdr2zLsc1WxpFZBjnPRW-55" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1930" y="2015" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-64" value="send gran token + user/pass" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Sdr2zLsc1WxpFZBjnPRW-63" vertex="1" connectable="0">
-          <mxGeometry x="-0.0601" y="3" relative="1" as="geometry">
-            <mxPoint y="1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-67" value="4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Sdr2zLsc1WxpFZBjnPRW-63" vertex="1" connectable="0">
-          <mxGeometry x="0.3855" y="4" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1990" y="2310" as="sourcePoint" />
-            <mxPoint x="2290" y="2310" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-70" value="send gran token authorizes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Sdr2zLsc1WxpFZBjnPRW-69" vertex="1" connectable="0">
-          <mxGeometry x="0.1122" y="4" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-71" value="6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Sdr2zLsc1WxpFZBjnPRW-69" vertex="1" connectable="0">
-          <mxGeometry x="0.7161" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-54" value="Cliente" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1870" y="2180.41" width="120" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Sdr2zLsc1WxpFZBjnPRW-55" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1970" y="2180" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1970" y="2070" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-66" value="send gran token with authorized selo" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Sdr2zLsc1WxpFZBjnPRW-65" vertex="1" connectable="0">
-          <mxGeometry x="-0.014" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-68" value="5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Sdr2zLsc1WxpFZBjnPRW-65" vertex="1" connectable="0">
-          <mxGeometry x="-0.6268" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2390" y="2100" as="sourcePoint" />
-            <mxPoint x="2390" y="2180.41" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-75" value="8 return access token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Sdr2zLsc1WxpFZBjnPRW-74" vertex="1" connectable="0">
-          <mxGeometry x="0.217" y="-3" relative="1" as="geometry">
-            <mxPoint x="33" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Sdr2zLsc1WxpFZBjnPRW-55" value="APP Google" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2290" y="1929.9999999999998" width="120" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="WBDVUZCdiRR4jPYFwASW-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="WBDVUZCdiRR4jPYFwASW-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="2910" y="1870" width="1200" height="620" as="geometry" />
         </mxCell>
-        <mxCell id="WBDVUZCdiRR4jPYFwASW-2" value="OAUTH - Client Credentials" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="WBDVUZCdiRR4jPYFwASW-2" value="OAUTH - Client Credentials" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="2910" y="1870" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WBDVUZCdiRR4jPYFwASW-4" value="&lt;div&gt;OAuth 2.0:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. **Resource Owner**:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- **Exemplo**: Maria, uma usuária de um serviço de streaming de música. Ela é a proprietária dos dados (playlist, histórico de músicas ou preferências) que a aplicação de streaming pode acessar com a devida autorização.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2. **Client**:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- **Exemplo**: A aplicação de streaming de música que Maria usa no seu smartphone. Esta aplicação solicita acesso aos recursos protegidos (dados da playlist de Maria) em nome de Maria.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3. **Resource Server**:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- **Exemplo**: O servidor da API do serviço de streaming de música que hospeda os dados protegidos, como as playlists e o histórico de músicas de Maria.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;4. **Authorization Server**:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- **Exemplo**: Auth0, que autentica Maria quando ela faz login e emite um token de acesso que permite à aplicação de streaming de música acessar os dados dela hospedados no servidor da API.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;5. **User Agent**:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- **Exemplo**: O navegador que Maria usa para acessar a interface web do serviço de streaming de música, ou a aplicação nativa do serviço instalada no seu smartphone. Este agente é usado por Maria para interagir com o cliente (aplicação de streaming).&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="WBDVUZCdiRR4jPYFwASW-4" value="&lt;div&gt;OAuth 2.0:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. **Resource Owner**:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- **Exemplo**: Maria, uma usuária de um serviço de streaming de música. Ela é a proprietária dos dados (playlist, histórico de músicas ou preferências) que a aplicação de streaming pode acessar com a devida autorização.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2. **Client**:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- **Exemplo**: A aplicação de streaming de música que Maria usa no seu smartphone. Esta aplicação solicita acesso aos recursos protegidos (dados da playlist de Maria) em nome de Maria.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3. **Resource Server**:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- **Exemplo**: O servidor da API do serviço de streaming de música que hospeda os dados protegidos, como as playlists e o histórico de músicas de Maria.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;4. **Authorization Server**:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- **Exemplo**: Auth0, que autentica Maria quando ela faz login e emite um token de acesso que permite à aplicação de streaming de música acessar os dados dela hospedados no servidor da API.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;5. **User Agent**:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- **Exemplo**: O navegador que Maria usa para acessar a interface web do serviço de streaming de música, ou a aplicação nativa do serviço instalada no seu smartphone. Este agente é usado por Maria para interagir com o cliente (aplicação de streaming).&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2800" y="1510" width="1400" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="K6CUH003vYf43FD1VmGb-2" value="OAUTH - Authorization Code Flow + CIAM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="4280" y="1860" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K6CUH003vYf43FD1VmGb-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4390" y="2020" as="sourcePoint" />
+            <mxPoint x="4670" y="2021" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="4531" y="2021" />
+              <mxPoint x="4671" y="2020" />
+              <mxPoint x="4671" y="2040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K6CUH003vYf43FD1VmGb-10" value="/authentica" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="K6CUH003vYf43FD1VmGb-9">
+          <mxGeometry x="-0.3236" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K6CUH003vYf43FD1VmGb-11" value="USER" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4330" y="1920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K6CUH003vYf43FD1VmGb-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4900" y="2040" as="sourcePoint" />
+            <mxPoint x="4400" y="2040.2999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K6CUH003vYf43FD1VmGb-13" value="retorna url de login" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="K6CUH003vYf43FD1VmGb-12">
+          <mxGeometry x="0.2819" y="5" relative="1" as="geometry">
+            <mxPoint x="22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K6CUH003vYf43FD1VmGb-16" value="/geturl login" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4680" y="2020" as="sourcePoint" />
+            <mxPoint x="4910" y="2020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K6CUH003vYf43FD1VmGb-14" value="BFF Autenticação" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4610" y="1920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K6CUH003vYf43FD1VmGb-15" value="CIAM" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4840" y="1920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K6CUH003vYf43FD1VmGb-19" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.324;exitY=1.003;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4668.8" y="2481.86" as="sourcePoint" />
+            <mxPoint x="4670" y="1990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K6CUH003vYf43FD1VmGb-20" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.324;exitY=1.003;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4389.44" y="2480" as="sourcePoint" />
+            <mxPoint x="4390.44" y="1988" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K6CUH003vYf43FD1VmGb-21" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.324;exitY=1.003;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4910" y="2472" as="sourcePoint" />
+            <mxPoint x="4911" y="1980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K6CUH003vYf43FD1VmGb-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4390" y="2070.4100000000003" as="sourcePoint" />
+            <mxPoint x="4900" y="2071.76" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="4531" y="2071.4100000000003" />
+              <mxPoint x="4671" y="2070.4100000000003" />
+              <mxPoint x="4671" y="2090.4100000000003" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K6CUH003vYf43FD1VmGb-23" value="/authentica" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="K6CUH003vYf43FD1VmGb-22">
+          <mxGeometry x="-0.3236" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K6CUH003vYf43FD1VmGb-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4900" y="2100" as="sourcePoint" />
+            <mxPoint x="4400" y="2100.2999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K6CUH003vYf43FD1VmGb-25" value="retorna authorization code" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="K6CUH003vYf43FD1VmGb-24">
+          <mxGeometry x="0.2819" y="5" relative="1" as="geometry">
+            <mxPoint x="22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K6CUH003vYf43FD1VmGb-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4390" y="2150" as="sourcePoint" />
+            <mxPoint x="4670" y="2151" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="4531" y="2151" />
+              <mxPoint x="4671" y="2150" />
+              <mxPoint x="4671" y="2170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K6CUH003vYf43FD1VmGb-29" value="/get token - exchange" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="K6CUH003vYf43FD1VmGb-28">
+          <mxGeometry x="-0.3236" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K6CUH003vYf43FD1VmGb-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4640" y="2150" as="sourcePoint" />
+            <mxPoint x="4920" y="2151" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="4781" y="2151" />
+              <mxPoint x="4921" y="2150" />
+              <mxPoint x="4921" y="2170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K6CUH003vYf43FD1VmGb-31" value="/get token - exchange" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="K6CUH003vYf43FD1VmGb-30">
+          <mxGeometry x="-0.3236" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K6CUH003vYf43FD1VmGb-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4900" y="2181" as="sourcePoint" />
+            <mxPoint x="4400" y="2180.7099999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K6CUH003vYf43FD1VmGb-33" value="retorna token opaco" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="K6CUH003vYf43FD1VmGb-32">
+          <mxGeometry x="0.2819" y="5" relative="1" as="geometry">
+            <mxPoint x="22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K6CUH003vYf43FD1VmGb-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4390" y="2240" as="sourcePoint" />
+            <mxPoint x="5120" y="2241" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="4531" y="2241" />
+              <mxPoint x="4671" y="2240" />
+              <mxPoint x="4671" y="2260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K6CUH003vYf43FD1VmGb-35" value="/get api send token opaco" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="K6CUH003vYf43FD1VmGb-34">
+          <mxGeometry x="-0.3236" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K6CUH003vYf43FD1VmGb-36" value="LAMBDA" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5070" y="1920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K6CUH003vYf43FD1VmGb-37" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.324;exitY=1.003;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="5129.44" y="2472" as="sourcePoint" />
+            <mxPoint x="5130.44" y="1980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K6CUH003vYf43FD1VmGb-38" value="API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5360" y="1920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K6CUH003vYf43FD1VmGb-39" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.324;exitY=1.003;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="5419.44" y="2472" as="sourcePoint" />
+            <mxPoint x="5420.44" y="1980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K6CUH003vYf43FD1VmGb-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5130" y="2260" as="sourcePoint" />
+            <mxPoint x="5141" y="2340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="5130" y="2290" />
+              <mxPoint x="5271" y="2290" />
+              <mxPoint x="5271" y="2340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K6CUH003vYf43FD1VmGb-41" value="faz exchange pra jwt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="K6CUH003vYf43FD1VmGb-40">
+          <mxGeometry x="-0.3236" y="-1" relative="1" as="geometry">
+            <mxPoint x="-39" y="49" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K6CUH003vYf43FD1VmGb-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5130" y="2380" as="sourcePoint" />
+            <mxPoint x="5410" y="2381" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="5271" y="2381" />
+              <mxPoint x="5411" y="2380" />
+              <mxPoint x="5411" y="2400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K6CUH003vYf43FD1VmGb-43" value="/get api send jwt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="K6CUH003vYf43FD1VmGb-42">
+          <mxGeometry x="-0.3236" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
