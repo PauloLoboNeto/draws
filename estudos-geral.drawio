@@ -1,9 +1,35 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Página-1" id="MtWf-XRx_TU9yk_ZEOb2">
-    <mxGraphModel>
+    <mxGraphModel dx="954" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="sFQSTO7u5scVZ7wd1ChE-2" value="CSS" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="220" y="160" width="140" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="sFQSTO7u5scVZ7wd1ChE-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="sFQSTO7u5scVZ7wd1ChE-7" target="sFQSTO7u5scVZ7wd1ChE-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sFQSTO7u5scVZ7wd1ChE-7" value="&lt;b&gt;SAAS&lt;/b&gt;&lt;br&gt;&lt;br&gt;SASS é um pré-processador de CSS com mais funcionalidades, fornecendo recursos avançados como variáveis, mixins, loops, aninhamento e herança.&lt;br&gt;&lt;blockquote&gt;&lt;p&gt;&lt;strong&gt;Nota:&lt;/strong&gt; O SASS precisa ser compilado para CSS antes de ser usado no navegador.&lt;/p&gt;&lt;/blockquote&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="260" width="270" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="sFQSTO7u5scVZ7wd1ChE-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="sFQSTO7u5scVZ7wd1ChE-12" target="sFQSTO7u5scVZ7wd1ChE-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sFQSTO7u5scVZ7wd1ChE-12" value="&lt;b&gt;SCSS&lt;/b&gt;&lt;br&gt;&lt;br&gt;SCSS é uma variação do SASS com sintaxe semelhante ao CSS. Combina o poder do SASS com a familiaridade da sintaxe do CSS.&lt;br&gt;&lt;blockquote&gt;&lt;p&gt;&lt;strong&gt;Nota:&lt;/strong&gt; SCSS é amplamente utilizado por ser mais acessível para quem já conhece CSS..&lt;/p&gt;&lt;/blockquote&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="470" width="270" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="sFQSTO7u5scVZ7wd1ChE-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="sFQSTO7u5scVZ7wd1ChE-14" target="sFQSTO7u5scVZ7wd1ChE-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="585" y="230" />
+              <mxPoint x="290" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sFQSTO7u5scVZ7wd1ChE-14" value="&lt;b&gt;Less&lt;/b&gt;&lt;br&gt;&lt;br&gt;LESS é outro pré-processador de CSS. Similar ao SASS, mas usa uma sintaxe mais próxima do CSS.&lt;br&gt;&lt;blockquote&gt;&lt;p&gt;&lt;strong&gt;Nota:&lt;/strong&gt;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;LESS foi projetado para ser compilado no cliente (navegador), mas também pode ser processado no servidor.&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="260" width="270" height="160" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
