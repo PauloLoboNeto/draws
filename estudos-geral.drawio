@@ -416,7 +416,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IqpjyaCpQGPz8zThn-Vu" name="design token">
-    <mxGraphModel dx="2935" dy="1518" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1881" dy="839" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -457,7 +457,7 @@
           <mxGeometry x="-687" y="7" width="86" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VFtYm1SKoVWV9lR_Jhf5-14" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/v2/resize:fit:1400/1*ZKO9Mstk35dhKDMIC6uH8g.png;" vertex="1" parent="1">
-          <mxGeometry x="-465" y="-57" width="361.88" height="356.76" as="geometry" />
+          <mxGeometry x="-511" y="-71" width="361.88" height="356.76" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
