@@ -415,11 +415,50 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="IqpjyaCpQGPz8zThn-Vu" name="Página-4">
-    <mxGraphModel dx="954" dy="615" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="IqpjyaCpQGPz8zThn-Vu" name="design token">
+    <mxGraphModel dx="2935" dy="1518" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VFtYm1SKoVWV9lR_Jhf5-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="VFtYm1SKoVWV9lR_Jhf5-1" target="VFtYm1SKoVWV9lR_Jhf5-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VFtYm1SKoVWV9lR_Jhf5-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="VFtYm1SKoVWV9lR_Jhf5-1" target="VFtYm1SKoVWV9lR_Jhf5-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VFtYm1SKoVWV9lR_Jhf5-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="VFtYm1SKoVWV9lR_Jhf5-1" target="VFtYm1SKoVWV9lR_Jhf5-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VFtYm1SKoVWV9lR_Jhf5-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="VFtYm1SKoVWV9lR_Jhf5-1" target="VFtYm1SKoVWV9lR_Jhf5-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VFtYm1SKoVWV9lR_Jhf5-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="VFtYm1SKoVWV9lR_Jhf5-1" target="VFtYm1SKoVWV9lR_Jhf5-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VFtYm1SKoVWV9lR_Jhf5-1" value="Design tokens" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-899" y="99" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VFtYm1SKoVWV9lR_Jhf5-2" value="Refere-se aos atributos da UI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-846" y="80" width="82" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="VFtYm1SKoVWV9lR_Jhf5-3" value="Cor" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-689" y="54" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VFtYm1SKoVWV9lR_Jhf5-4" value="Espaçamento" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-689" y="106" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VFtYm1SKoVWV9lR_Jhf5-5" value="Tipografias" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-689" y="158" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VFtYm1SKoVWV9lR_Jhf5-10" value="estados" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-691" y="210" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VFtYm1SKoVWV9lR_Jhf5-12" value="Dimensões" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-687" y="7" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VFtYm1SKoVWV9lR_Jhf5-14" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/v2/resize:fit:1400/1*ZKO9Mstk35dhKDMIC6uH8g.png;" vertex="1" parent="1">
+          <mxGeometry x="-465" y="-57" width="361.88" height="356.76" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
