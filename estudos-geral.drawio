@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.2" pages="5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.2" pages="6">
   <diagram name="pre-processors css" id="MtWf-XRx_TU9yk_ZEOb2">
     <mxGraphModel dx="954" dy="615" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -551,6 +551,152 @@
         </mxCell>
         <mxCell id="axIK5BxtDyVSK2iYuQ2n-22" value="align-item alinhará o item de acordo com o flow secundário do eixo" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1405" y="35" width="365" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="IEWSfccorrrhIDVQP8wu" name="Página-6">
+    <mxGraphModel dx="1004" dy="647" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BZghMA61rvsxjhTXkDIS-29" value="-" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="353" y="537" width="458" height="347" as="geometry" />
+        </mxCell>
+        <mxCell id="BZghMA61rvsxjhTXkDIS-28" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="357" y="85" width="458" height="347" as="geometry" />
+        </mxCell>
+        <mxCell id="BZghMA61rvsxjhTXkDIS-1" value="Bucket" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BZghMA61rvsxjhTXkDIS-2" value="1.0" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.android;fillColor=#205E00;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="255" width="50" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="BZghMA61rvsxjhTXkDIS-4" value="2.0" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.android;fillColor=#205E00;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="332" width="50" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="BZghMA61rvsxjhTXkDIS-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BZghMA61rvsxjhTXkDIS-6" target="BZghMA61rvsxjhTXkDIS-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BZghMA61rvsxjhTXkDIS-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BZghMA61rvsxjhTXkDIS-9" target="BZghMA61rvsxjhTXkDIS-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BZghMA61rvsxjhTXkDIS-6" value="Chassi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BZghMA61rvsxjhTXkDIS-9" value="/rota/default" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="630" y="193" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BZghMA61rvsxjhTXkDIS-10" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.company_portal" vertex="1" parent="1">
+          <mxGeometry x="595" y="104" width="50" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="BZghMA61rvsxjhTXkDIS-11" value="endereco-mfe/2.0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="650" y="97" width="104" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BZghMA61rvsxjhTXkDIS-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BZghMA61rvsxjhTXkDIS-13" target="BZghMA61rvsxjhTXkDIS-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BZghMA61rvsxjhTXkDIS-13" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="748" y="210" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BZghMA61rvsxjhTXkDIS-17" value="Bucket" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="641" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BZghMA61rvsxjhTXkDIS-18" value="1.0" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.android;fillColor=#205E00;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="721" width="50" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="BZghMA61rvsxjhTXkDIS-19" value="2.0" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.android;fillColor=#205E00;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="808" width="50" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="BZghMA61rvsxjhTXkDIS-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BZghMA61rvsxjhTXkDIS-22" target="BZghMA61rvsxjhTXkDIS-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BZghMA61rvsxjhTXkDIS-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BZghMA61rvsxjhTXkDIS-22" target="BZghMA61rvsxjhTXkDIS-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="551" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BZghMA61rvsxjhTXkDIS-22" value="Chassi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="641" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BZghMA61rvsxjhTXkDIS-23" value="/rota/default" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="630" y="647" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BZghMA61rvsxjhTXkDIS-24" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.company_portal" vertex="1" parent="1">
+          <mxGeometry x="595" y="555" width="50" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="BZghMA61rvsxjhTXkDIS-25" value="endereco-blue/2.0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="650" y="548" width="104" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BZghMA61rvsxjhTXkDIS-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BZghMA61rvsxjhTXkDIS-27" target="BZghMA61rvsxjhTXkDIS-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BZghMA61rvsxjhTXkDIS-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BZghMA61rvsxjhTXkDIS-27" target="BZghMA61rvsxjhTXkDIS-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BZghMA61rvsxjhTXkDIS-27" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="748" y="661" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BZghMA61rvsxjhTXkDIS-30" value="endereco-green/2.0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="650" y="578" width="107" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BZghMA61rvsxjhTXkDIS-32" value="/rota/teste" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="630" y="681" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BZghMA61rvsxjhTXkDIS-34" value="primeiro mfe, resolve" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="808" y="561" width="130" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BZghMA61rvsxjhTXkDIS-35" value="para os proximos, precisamos ter os dois endereços de redirect cadastrados no json SDUI, &lt;br&gt;e no chassi teria que ter uma regra para escolha do endereço de acordo com a &lt;br&gt;rota acessada inicialmente, ou seja, precisaria manter o estado da rota acessada previamente." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="815" y="587" width="522" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="BZghMA61rvsxjhTXkDIS-36" value="X" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="353" y="927" width="458" height="347" as="geometry" />
+        </mxCell>
+        <mxCell id="BZghMA61rvsxjhTXkDIS-37" value="Bucket" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1031" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BZghMA61rvsxjhTXkDIS-38" value="1.0" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.android;fillColor=#205E00;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1111" width="50" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="BZghMA61rvsxjhTXkDIS-39" value="2.0" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.android;fillColor=#205E00;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1198" width="50" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="BZghMA61rvsxjhTXkDIS-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BZghMA61rvsxjhTXkDIS-42" target="BZghMA61rvsxjhTXkDIS-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BZghMA61rvsxjhTXkDIS-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BZghMA61rvsxjhTXkDIS-42" target="BZghMA61rvsxjhTXkDIS-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="941" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BZghMA61rvsxjhTXkDIS-42" value="Chassi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1031" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BZghMA61rvsxjhTXkDIS-43" value="/rota/default" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1037" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BZghMA61rvsxjhTXkDIS-44" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.company_portal" vertex="1" parent="1">
+          <mxGeometry x="595" y="945" width="50" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="BZghMA61rvsxjhTXkDIS-45" value="endereco-blue/2.0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="650" y="938" width="104" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BZghMA61rvsxjhTXkDIS-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BZghMA61rvsxjhTXkDIS-48" target="BZghMA61rvsxjhTXkDIS-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BZghMA61rvsxjhTXkDIS-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BZghMA61rvsxjhTXkDIS-48" target="BZghMA61rvsxjhTXkDIS-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BZghMA61rvsxjhTXkDIS-48" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="748" y="1051" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BZghMA61rvsxjhTXkDIS-50" value="/rota/teste" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1071" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BZghMA61rvsxjhTXkDIS-51" value="nesse cenário, o chassi precisa pegar a versão latest do mfe, sempre.&lt;br&gt;Para isso, seria necessário criar um lambda edge." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="814" y="951" width="391" height="41" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
