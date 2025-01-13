@@ -876,21 +876,60 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GPsb1r3BLNPkTIAR-sol" name="front mindmap">
-    <mxGraphModel dx="954" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1806" dy="671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="AOwmKPu9VlXGeXH8WwOb-2" value="UI" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="220" width="120" height="80" as="geometry" />
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="AOwmKPu9VlXGeXH8WwOb-2" target="AOwmKPu9VlXGeXH8WwOb-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AOwmKPu9VlXGeXH8WwOb-3" value="JQuery" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="120" width="120" height="80" as="geometry" />
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AOwmKPu9VlXGeXH8WwOb-2" target="AOwmKPu9VlXGeXH8WwOb-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AOwmKPu9VlXGeXH8WwOb-4" value="Angular Material" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="220" width="120" height="80" as="geometry" />
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="AOwmKPu9VlXGeXH8WwOb-2" target="AOwmKPu9VlXGeXH8WwOb-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AOwmKPu9VlXGeXH8WwOb-5" value="Bootstrap" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="320" width="120" height="80" as="geometry" />
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="AOwmKPu9VlXGeXH8WwOb-2" target="vLxqorkAE9eeUlQ2f-v9-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AOwmKPu9VlXGeXH8WwOb-2" value="UI" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AOwmKPu9VlXGeXH8WwOb-3" value="JQuery" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="180" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AOwmKPu9VlXGeXH8WwOb-4" value="Angular Material" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AOwmKPu9VlXGeXH8WwOb-5" value="Bootstrap" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="380" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vLxqorkAE9eeUlQ2f-v9-4" target="vLxqorkAE9eeUlQ2f-v9-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vLxqorkAE9eeUlQ2f-v9-4" target="vLxqorkAE9eeUlQ2f-v9-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-11" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vLxqorkAE9eeUlQ2f-v9-4" target="vLxqorkAE9eeUlQ2f-v9-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vLxqorkAE9eeUlQ2f-v9-4" target="vLxqorkAE9eeUlQ2f-v9-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-4" value="Componentes complextos" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="410" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-6" value="Autocomplete" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="540" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-7" value="Modal" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="540" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-8" value="Calendário" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="540" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-12" value="Menu Suspenso" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="540" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
