@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.5" pages="7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.5" pages="8">
   <diagram name="css" id="MtWf-XRx_TU9yk_ZEOb2">
     <mxGraphModel dx="2120" dy="1767" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -871,6 +871,26 @@
         </mxCell>
         <mxCell id="terD_8Ndj1fY-2RVUGjM-21" value="&lt;li&gt;&lt;strong&gt;Threads&lt;/strong&gt; exigem que o sistema operacional faça o escalonamento, o que pode ser caro em termos de tempo de CPU. &lt;br&gt;Além disso, cada thread geralmente tem uma pilha própria, o que pode consumir bastante memória se você criar muitas threads.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Corrotinas&lt;/strong&gt; são gerenciadas pela própria máquina virtual (JVM ou Kotlin/Native) e podem ser escalonadas mais eficientemente, &lt;br&gt;pois a JVM não precisa de intervenção do sistema operacional. &lt;br&gt;Elas compartilham uma única pilha de execução, tornando o gerenciamento de muitas corrotinas mais eficiente.&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Threads&lt;/strong&gt; possuem um limite prático no número de threads que podem ser criadas, &lt;br&gt;devido ao alto custo de cada thread em termos de memória e recursos.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Corrotinas&lt;/strong&gt; podem ser criadas em um número muito maior sem impactar tanto o desempenho. &lt;br&gt;Você pode lançar milhares ou até milhões de corrotinas em um programa, &lt;br&gt;enquanto criar a mesma quantidade de threads pode resultar em um grande consumo de memória e processamento.&lt;/li&gt;&lt;h3&gt;&lt;/h3&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="781" y="127" width="714" height="199" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="GPsb1r3BLNPkTIAR-sol" name="front mindmap">
+    <mxGraphModel dx="954" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AOwmKPu9VlXGeXH8WwOb-2" value="UI" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="220" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AOwmKPu9VlXGeXH8WwOb-3" value="JQuery" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AOwmKPu9VlXGeXH8WwOb-4" value="Angular Material" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="220" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AOwmKPu9VlXGeXH8WwOb-5" value="Bootstrap" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="320" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
