@@ -1033,11 +1033,14 @@
     </mxGraphModel>
   </diagram>
   <diagram id="sF3J-JHCV6G-4BmbIn-v" name="Javascript How Works">
-    <mxGraphModel dx="1406" dy="1737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2256" dy="1737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="U8jUfCNDZesd9MhRS3ig-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U8jUfCNDZesd9MhRS3ig-17" target="U8jUfCNDZesd9MhRS3ig-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U8jUfCNDZesd9MhRS3ig-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U8jUfCNDZesd9MhRS3ig-17" target="U8jUfCNDZesd9MhRS3ig-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="U8jUfCNDZesd9MhRS3ig-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;dashed=1;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
@@ -1083,10 +1086,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="U8jUfCNDZesd9MhRS3ig-13" value="WebAPIs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="251" y="-190" width="120" height="60" as="geometry" />
+          <mxGeometry x="125" y="-190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="U8jUfCNDZesd9MhRS3ig-14" value="DOM&lt;div&gt;AJAX(XHTMLRequest)&lt;/div&gt;&lt;div&gt;Timeout&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="246" y="-300" width="130" height="60" as="geometry" />
+          <mxGeometry x="120" y="-300" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U8jUfCNDZesd9MhRS3ig-19" value="EventLoop&lt;div&gt;CallBackQueue&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="-190" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U8jUfCNDZesd9MhRS3ig-21" value="Como podemos executar códigos pesados ​​sem bloquear a&#xa;interface do usuário e deixar o navegador sem resposta?&#xa;callbacks assíncronos." style="text;align=center;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=#005700;fillColor=#008a00;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-135" y="-380" width="315" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
