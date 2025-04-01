@@ -1482,6 +1482,9 @@
         <mxCell id="ZlBnseFngWQ4X4aMhOSs-34" value="CODE_CHALLENGE" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="710" y="200" width="60" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="ZlBnseFngWQ4X4aMhOSs-44" value="salva token" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZlBnseFngWQ4X4aMhOSs-38" target="ZlBnseFngWQ4X4aMhOSs-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ZlBnseFngWQ4X4aMhOSs-38" value="Front" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="720" width="120" height="60" as="geometry" />
         </mxCell>
@@ -1495,6 +1498,9 @@
         </mxCell>
         <mxCell id="ZlBnseFngWQ4X4aMhOSs-39" value="Back" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZlBnseFngWQ4X4aMhOSs-43" value="cookie http_only" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="720" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
