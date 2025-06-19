@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.4" pages="15">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6" pages="15">
   <diagram name="css" id="MtWf-XRx_TU9yk_ZEOb2">
     <mxGraphModel dx="3124" dy="2216" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -876,20 +876,20 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GPsb1r3BLNPkTIAR-sol" name="front mindmap">
-    <mxGraphModel dx="2743" dy="2318" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2066" dy="1953" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="vLxqorkAE9eeUlQ2f-v9-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" source="AOwmKPu9VlXGeXH8WwOb-2" target="AOwmKPu9VlXGeXH8WwOb-3">
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" parent="1" source="AOwmKPu9VlXGeXH8WwOb-2" target="AOwmKPu9VlXGeXH8WwOb-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vLxqorkAE9eeUlQ2f-v9-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AOwmKPu9VlXGeXH8WwOb-2" target="AOwmKPu9VlXGeXH8WwOb-4">
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="AOwmKPu9VlXGeXH8WwOb-2" target="AOwmKPu9VlXGeXH8WwOb-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vLxqorkAE9eeUlQ2f-v9-3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" source="AOwmKPu9VlXGeXH8WwOb-2" target="AOwmKPu9VlXGeXH8WwOb-5">
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" parent="1" source="AOwmKPu9VlXGeXH8WwOb-2" target="AOwmKPu9VlXGeXH8WwOb-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vLxqorkAE9eeUlQ2f-v9-5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="AOwmKPu9VlXGeXH8WwOb-2" target="vLxqorkAE9eeUlQ2f-v9-4">
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" parent="1" source="AOwmKPu9VlXGeXH8WwOb-2" target="vLxqorkAE9eeUlQ2f-v9-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AOwmKPu9VlXGeXH8WwOb-2" value="UI" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
@@ -904,80 +904,80 @@
         <mxCell id="AOwmKPu9VlXGeXH8WwOb-5" value="Bootstrap" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="800" y="330" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vLxqorkAE9eeUlQ2f-v9-9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vLxqorkAE9eeUlQ2f-v9-4" target="vLxqorkAE9eeUlQ2f-v9-6">
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vLxqorkAE9eeUlQ2f-v9-4" target="vLxqorkAE9eeUlQ2f-v9-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vLxqorkAE9eeUlQ2f-v9-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vLxqorkAE9eeUlQ2f-v9-4" target="vLxqorkAE9eeUlQ2f-v9-7">
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vLxqorkAE9eeUlQ2f-v9-4" target="vLxqorkAE9eeUlQ2f-v9-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vLxqorkAE9eeUlQ2f-v9-11" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vLxqorkAE9eeUlQ2f-v9-4" target="vLxqorkAE9eeUlQ2f-v9-8">
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-11" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vLxqorkAE9eeUlQ2f-v9-4" target="vLxqorkAE9eeUlQ2f-v9-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vLxqorkAE9eeUlQ2f-v9-13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vLxqorkAE9eeUlQ2f-v9-4" target="vLxqorkAE9eeUlQ2f-v9-12">
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vLxqorkAE9eeUlQ2f-v9-4" target="vLxqorkAE9eeUlQ2f-v9-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vLxqorkAE9eeUlQ2f-v9-15" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vLxqorkAE9eeUlQ2f-v9-4" target="vLxqorkAE9eeUlQ2f-v9-14">
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-15" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vLxqorkAE9eeUlQ2f-v9-4" target="vLxqorkAE9eeUlQ2f-v9-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vLxqorkAE9eeUlQ2f-v9-20" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vLxqorkAE9eeUlQ2f-v9-4" target="vLxqorkAE9eeUlQ2f-v9-19">
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-20" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vLxqorkAE9eeUlQ2f-v9-4" target="vLxqorkAE9eeUlQ2f-v9-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vLxqorkAE9eeUlQ2f-v9-22" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vLxqorkAE9eeUlQ2f-v9-4" target="vLxqorkAE9eeUlQ2f-v9-21">
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-22" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vLxqorkAE9eeUlQ2f-v9-4" target="vLxqorkAE9eeUlQ2f-v9-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vLxqorkAE9eeUlQ2f-v9-4" value="Componentes complextos" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-4" value="Componentes complextos" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="410" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vLxqorkAE9eeUlQ2f-v9-6" value="Autocomplete" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-6" value="Autocomplete" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="530" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vLxqorkAE9eeUlQ2f-v9-7" value="Modal" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-7" value="Modal" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="530" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vLxqorkAE9eeUlQ2f-v9-8" value="Calendário" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-8" value="Calendário" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="340" y="530" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vLxqorkAE9eeUlQ2f-v9-12" value="Menu Suspenso" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-12" value="Menu Suspenso" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="530" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vLxqorkAE9eeUlQ2f-v9-14" value="Carrossel" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-14" value="Carrossel" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-80" y="530" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vLxqorkAE9eeUlQ2f-v9-18" value="&lt;br&gt;quais componentes compõem o &lt;br&gt;componente &lt;br&gt;complexo?" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-18" value="&lt;br&gt;quais componentes compõem o &lt;br&gt;componente &lt;br&gt;complexo?" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-20" y="350" width="130" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="vLxqorkAE9eeUlQ2f-v9-19" value="widget de enquetes incorporável" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-19" value="widget de enquetes incorporável" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-220" y="530" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vLxqorkAE9eeUlQ2f-v9-21" value="Tabela com classificação e paginação" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-21" value="Tabela com classificação e paginação" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-360" y="530" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vLxqorkAE9eeUlQ2f-v9-23" value="https://www.greatfrontend.com/pt-BR/front-end-interview-playbook/user-interface-components-api-design-principles" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-23" value="https://www.greatfrontend.com/pt-BR/front-end-interview-playbook/user-interface-components-api-design-principles" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="-310" y="-920" width="790" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vLxqorkAE9eeUlQ2f-v9-24" value="Framework Radio(https://www.greatfrontend.com/pt-BR/front-end-system-design-playbook/framework):&lt;br&gt;R - &lt;b&gt;Requisitos&lt;/b&gt;&lt;br&gt;A - &lt;b&gt;Arquitetura&lt;/b&gt; de alto nível&lt;div&gt;D - modelo de &lt;b&gt;Dados&lt;/b&gt;&lt;br&gt;I - &lt;b&gt;interface&lt;/b&gt; entre os componentes&lt;br&gt;O - otimizações&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-24" value="Framework Radio(https://www.greatfrontend.com/pt-BR/front-end-system-design-playbook/framework):&lt;br&gt;R - &lt;b&gt;Requisitos&lt;/b&gt;&lt;br&gt;A - &lt;b&gt;Arquitetura&lt;/b&gt; de alto nível&lt;div&gt;D - modelo de &lt;b&gt;Dados&lt;/b&gt;&lt;br&gt;I - &lt;b&gt;interface&lt;/b&gt; entre os componentes&lt;br&gt;O - otimizações&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="-300" y="-880" width="710" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="vLxqorkAE9eeUlQ2f-v9-32" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vLxqorkAE9eeUlQ2f-v9-25" target="vLxqorkAE9eeUlQ2f-v9-27">
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-32" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vLxqorkAE9eeUlQ2f-v9-25" target="vLxqorkAE9eeUlQ2f-v9-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vLxqorkAE9eeUlQ2f-v9-25" value="Front" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-25" value="Front" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="-320" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vLxqorkAE9eeUlQ2f-v9-30" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vLxqorkAE9eeUlQ2f-v9-27" target="vLxqorkAE9eeUlQ2f-v9-28">
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-30" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="vLxqorkAE9eeUlQ2f-v9-27" target="vLxqorkAE9eeUlQ2f-v9-28" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="450" y="-130" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vLxqorkAE9eeUlQ2f-v9-31" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vLxqorkAE9eeUlQ2f-v9-27" target="vLxqorkAE9eeUlQ2f-v9-29">
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-31" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vLxqorkAE9eeUlQ2f-v9-27" target="vLxqorkAE9eeUlQ2f-v9-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vLxqorkAE9eeUlQ2f-v9-27" value="Plataforma" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-27" value="Plataforma" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="-170" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vLxqorkAE9eeUlQ2f-v9-34" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vLxqorkAE9eeUlQ2f-v9-28" target="AOwmKPu9VlXGeXH8WwOb-2">
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-34" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vLxqorkAE9eeUlQ2f-v9-28" target="AOwmKPu9VlXGeXH8WwOb-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="450" y="90" />
@@ -985,16 +985,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vLxqorkAE9eeUlQ2f-v9-48" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vLxqorkAE9eeUlQ2f-v9-28" target="vLxqorkAE9eeUlQ2f-v9-46">
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-48" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vLxqorkAE9eeUlQ2f-v9-28" target="vLxqorkAE9eeUlQ2f-v9-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vLxqorkAE9eeUlQ2f-v9-49" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vLxqorkAE9eeUlQ2f-v9-28" target="vLxqorkAE9eeUlQ2f-v9-47">
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-49" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vLxqorkAE9eeUlQ2f-v9-28" target="vLxqorkAE9eeUlQ2f-v9-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vLxqorkAE9eeUlQ2f-v9-28" value="Mobile" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-28" value="Mobile" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="390" y="-60" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vLxqorkAE9eeUlQ2f-v9-33" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vLxqorkAE9eeUlQ2f-v9-29" target="AOwmKPu9VlXGeXH8WwOb-2">
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-33" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vLxqorkAE9eeUlQ2f-v9-29" target="AOwmKPu9VlXGeXH8WwOb-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="70" y="90" />
@@ -1002,32 +1002,65 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vLxqorkAE9eeUlQ2f-v9-43" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vLxqorkAE9eeUlQ2f-v9-29" target="vLxqorkAE9eeUlQ2f-v9-40">
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-43" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vLxqorkAE9eeUlQ2f-v9-29" target="vLxqorkAE9eeUlQ2f-v9-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vLxqorkAE9eeUlQ2f-v9-44" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vLxqorkAE9eeUlQ2f-v9-29" target="vLxqorkAE9eeUlQ2f-v9-42">
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-44" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vLxqorkAE9eeUlQ2f-v9-29" target="vLxqorkAE9eeUlQ2f-v9-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vLxqorkAE9eeUlQ2f-v9-29" value="Desktop" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-29" value="Desktop" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="10" y="-60" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vLxqorkAE9eeUlQ2f-v9-40" value="Online" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-40" value="Online" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-170" y="-90" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vLxqorkAE9eeUlQ2f-v9-42" value="Offline" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-42" value="Offline" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-170" y="-10" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vLxqorkAE9eeUlQ2f-v9-46" value="Online" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-46" value="Online" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="-90" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vLxqorkAE9eeUlQ2f-v9-47" value="Offline" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-47" value="Offline" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="-10" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vLxqorkAE9eeUlQ2f-v9-50" value="- Estudar paginação" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-50" value="- Estudar paginação" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="-20" y="-640" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vLxqorkAE9eeUlQ2f-v9-51" value="https://www.greatfrontend.com/pt-BR/front-end-interview-playbook/user-interface-questions-cheatsheet" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="vLxqorkAE9eeUlQ2f-v9-51" value="https://www.greatfrontend.com/pt-BR/front-end-interview-playbook/user-interface-questions-cheatsheet" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="-310" y="-950" width="710" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5hDHD8b8rs5tphhnZpOi-1" value="&lt;a href=&quot;https://developer.mozilla.org/en-US/&quot;&gt;.JS&lt;/a&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="-120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5hDHD8b8rs5tphhnZpOi-2" value="Linguagem principal da web, que roda nos navegadores e no Node.js" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="-160" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5hDHD8b8rs5tphhnZpOi-3" value="&lt;a href=&quot;https://tc39.es/ecma262/#sec-conformance-normative-optional&quot;&gt;Ecmascript&lt;/a&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="-200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5hDHD8b8rs5tphhnZpOi-4" value="É a especificação que define o JavaScript. As versões (ES5, ES6, ES2020, etc.) são como edições da linguagem" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="-270" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5hDHD8b8rs5tphhnZpOi-5" value="Typescript" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5hDHD8b8rs5tphhnZpOi-6" value="Superset do JS que adiciona tipagem. Escreve .ts e compila pra .js. Similar ao kotlin que é convertido em .class" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+          <mxGeometry x="1660" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5hDHD8b8rs5tphhnZpOi-7" value="ESModules" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5hDHD8b8rs5tphhnZpOi-8" value="É um formato moderno de importar/exportar código (import/export), nativo nos navegadores e Node.js" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="140" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5hDHD8b8rs5tphhnZpOi-9" value="TSConfig" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1730" y="-30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5hDHD8b8rs5tphhnZpOi-10" value="É o arquivo de configuração do TypeScript. Define como o .ts será convertido em .js, para qual versão de JS, e em qual formato de módulos" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+          <mxGeometry x="1830" y="-110" width="90" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="5hDHD8b8rs5tphhnZpOi-11" value="{&lt;br&gt;&lt;p class=&quot;p2&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&quot;compilerOptions&quot;&lt;span class=&quot;s1&quot;&gt;: {&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;s1&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;s2&quot;&gt;&quot;target&quot;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;s1&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;s3&quot;&gt;&quot;ES2020&quot;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;s1&quot;&gt;, &lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;// Pra qual versão de JS compilar&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;s1&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;s2&quot;&gt;&quot;module&quot;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;s1&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;s3&quot;&gt;&quot;ESNext&quot;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;s1&quot;&gt;, &lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;// Que tipo de módulos usar&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;s1&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;s2&quot;&gt;&quot;outDir&quot;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;s1&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;s3&quot;&gt;&quot;./dist&quot;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;s1&quot;&gt;, &lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;// Onde salvar os .js gerados&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;s1&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;s2&quot;&gt;&quot;strict&quot;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;s1&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;s4&quot;&gt;true&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;s1&quot;&gt;, &lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;// Regras de tipo mais rigorosas&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;s1&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;s2&quot;&gt;&quot;esModuleInterop&quot;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;s1&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;s4&quot;&gt;true&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;s1&quot;&gt; &lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;// Permite importar pacotes CommonJS&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;},&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;s1&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;include&quot;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;s1&quot;&gt;: [&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;s3&quot;&gt;&quot;src&quot;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; class=&quot;s1&quot;&gt;]&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;}&lt;/span&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1940" y="-340" width="380" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
