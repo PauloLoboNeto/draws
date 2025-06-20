@@ -876,7 +876,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GPsb1r3BLNPkTIAR-sol" name="front mindmap">
-    <mxGraphModel dx="2616" dy="1840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="8280" dy="4400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1171,7 +1171,7 @@
           <mxGeometry x="1479" y="-923.77" width="321" height="13.77" as="geometry" />
         </mxCell>
         <mxCell id="2QtHZj3TogB34hqaCQEO-1" value="&lt;div&gt;shareAll({&lt;/div&gt;&lt;div&gt;&amp;nbsp; singleton: true,&amp;nbsp; &amp;nbsp; &amp;nbsp; // Uma única instância para todo o sistema&lt;/div&gt;&lt;div&gt;&amp;nbsp; eager: true,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // Carrega imediatamente (não lazy)&lt;/div&gt;&lt;div&gt;&amp;nbsp; pinned: true,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// Usa a versão do host, mesmo que o remote tente trocar&lt;/div&gt;&lt;div&gt;&amp;nbsp; strictVersion: true,&amp;nbsp; // Falha se as versões não forem exatamente iguais&lt;/div&gt;&lt;div&gt;&amp;nbsp; requiredVersion: &#39;auto&#39;, // Descobre a versão do package.json automaticamente&lt;/div&gt;&lt;div&gt;})&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-825" y="-980" width="450" height="110" as="geometry" />
+          <mxGeometry x="1070" y="-690" width="450" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
