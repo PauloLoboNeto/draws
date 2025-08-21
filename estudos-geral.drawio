@@ -1431,7 +1431,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-ZW2tSgNvNTtC6C4Cr-j" name="Arquiteturas front">
-    <mxGraphModel dx="1416" dy="1040" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1816" dy="1040" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1443,31 +1443,34 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XVOze6OLi3u_-S5vJTv0-2" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Next com dados totalmente estáticos&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="50" y="110" width="200" height="20" as="geometry" />
+          <mxGeometry x="54" y="14" width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="bLl3Dn7pNph5AYE9LIrG-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XVOze6OLi3u_-S5vJTv0-3" target="bLl3Dn7pNph5AYE9LIrG-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XVOze6OLi3u_-S5vJTv0-3" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Next&amp;nbsp;com dados parcialmente dinâmicos, vindo da API&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="50" y="130" width="200" height="30" as="geometry" />
+          <mxGeometry x="54" y="155" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XVOze6OLi3u_-S5vJTv0-4" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Next&amp;nbsp;com dados totalmente dinâmicos&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="50" y="160" width="200" height="30" as="geometry" />
+          <mxGeometry x="54" y="283" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XVOze6OLi3u_-S5vJTv0-7" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Next&amp;nbsp;com getStaticProps&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="50" y="190" width="200" height="20" as="geometry" />
+          <mxGeometry x="50" y="381" width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="XVOze6OLi3u_-S5vJTv0-8" value="O next primeiro faz o download do html possível e depois baixa o .js" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="405" y="-6" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bLl3Dn7pNph5AYE9LIrG-2" value="o react renderiza o padding, mas não tem elemento até que seja retornado pela api, ficando um espaço em branco" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="405" y="101" width="120" height="88" as="geometry" />
+          <mxGeometry x="405" y="126" width="120" height="88" as="geometry" />
         </mxCell>
         <mxCell id="bLl3Dn7pNph5AYE9LIrG-4" value="&lt;div style=&quot;color: rgb(201, 209, 217); background-color: rgb(13, 17, 23); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space-collapse: preserve;&quot;&gt;&amp;lt;&lt;span style=&quot;color: #a5d6ff;&quot;&gt;h1&lt;/span&gt; &lt;span style=&quot;color: #79c0ff;&quot;&gt;style&lt;/span&gt;&lt;span style=&quot;color: #ec8e2c;&quot;&gt;={&lt;/span&gt;{padding: &lt;span style=&quot;color: #a5d6ff;&quot;&gt;&quot;100px&quot;&lt;/span&gt;}&lt;span style=&quot;color: #ec8e2c;&quot;&gt;}&lt;/span&gt;&amp;gt;&lt;span style=&quot;color: #ec8e2c;&quot;&gt;{&lt;/span&gt;&lt;span style=&quot;color: #79c0ff;&quot;&gt;posts&lt;/span&gt;&lt;span style=&quot;color: #ec8e2c;&quot;&gt;}&lt;/span&gt;&amp;lt;/&lt;span style=&quot;color: #a5d6ff;&quot;&gt;h1&lt;/span&gt;&amp;gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="457" y="77" width="329" height="30" as="geometry" />
+          <mxGeometry x="469" y="103" width="329" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bLl3Dn7pNph5AYE9LIrG-5" value="com &quot;use client&quot; nada mudou. O html continua sendo o primeiro a ser baixado" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="518" y="-71" width="101" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="bLl3Dn7pNph5AYE9LIrG-6" value="&lt;font&gt;criar um for pra renderizar uma lista de h1, por exemplo&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-36" y="233" width="92" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
