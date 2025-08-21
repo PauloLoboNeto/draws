@@ -1451,9 +1451,6 @@
         <mxCell id="XVOze6OLi3u_-S5vJTv0-3" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Next&amp;nbsp;com dados parcialmente dinâmicos, vindo da API&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="54" y="155" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XVOze6OLi3u_-S5vJTv0-4" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Next&amp;nbsp;com dados totalmente dinâmicos&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="54" y="283" width="200" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="XVOze6OLi3u_-S5vJTv0-7" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Next&amp;nbsp;com getStaticProps&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="50" y="381" width="200" height="20" as="geometry" />
         </mxCell>
@@ -1469,8 +1466,8 @@
         <mxCell id="bLl3Dn7pNph5AYE9LIrG-5" value="com &quot;use client&quot; nada mudou. O html continua sendo o primeiro a ser baixado" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="518" y="-71" width="101" height="71" as="geometry" />
         </mxCell>
-        <mxCell id="bLl3Dn7pNph5AYE9LIrG-6" value="&lt;font&gt;criar um for pra renderizar uma lista de h1, por exemplo&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="-36" y="233" width="92" height="55" as="geometry" />
+        <mxCell id="bLl3Dn7pNph5AYE9LIrG-6" value="&lt;font&gt;testar tb com com dados totalmente dinâmicos criar um for pra renderizar uma lista de h1, por exemplo&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-38" y="164" width="92" height="115" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
