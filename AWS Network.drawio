@@ -11,7 +11,7 @@
           <mxGeometry height="630" width="810" x="122.5" y="70" as="geometry" />
         </mxCell>
         <mxCell id="gfh-0lur0iLOb4Dg9o3j-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="AZB" vertex="1">
-          <mxGeometry height="400" width="257" x="550" y="181.25" as="geometry" />
+          <mxGeometry height="400" width="257" x="634.4" y="181.25" as="geometry" />
         </mxCell>
         <mxCell id="gfh-0lur0iLOb4Dg9o3j-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="AZA" vertex="1">
           <mxGeometry height="400" width="240" x="260" y="181.25" as="geometry" />
@@ -23,13 +23,15 @@
           <mxGeometry height="100" width="183.5" x="288.25" y="251.25" as="geometry" />
         </mxCell>
         <mxCell id="gfh-0lur0iLOb4Dg9o3j-13" edge="1" parent="1" source="muRmjjpcNUeptl6fADVg-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gfh-0lur0iLOb4Dg9o3j-6">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="609.9999999999999" y="168.75" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="muRmjjpcNUeptl6fADVg-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="subnet public" vertex="1">
-          <mxGeometry height="100" width="189" x="584" y="251.25" as="geometry" />
+          <mxGeometry height="100" width="189" x="668.4" y="251.25" as="geometry" />
         </mxCell>
-        <mxCell id="muRmjjpcNUeptl6fADVg-5" parent="1" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;p data-start=&quot;426&quot; data-end=&quot;634&quot;&gt;A VPC serve para criar um domínio de rede isolado só seu dentro da AWS. Controla roteamento macro, tabelas de rota, segurança mais ampla e conexão com o mundo externo (internet, peering, VPN, Direct Connect).&lt;/p&gt;&lt;p data-start=&quot;636&quot; data-end=&quot;932&quot;&gt;A subnet serve para dividir essa rede em zonas menores e específicas. Cada subnet fica presa a uma única AZ. Você decide se ela é pública (rota para internet através de um IGW) ou privada (sem rota direta para internet). Ela organiza suas cargas e define onde cada coisa pode existir fisicamente.&lt;br&gt;&lt;br&gt;route table:&lt;br&gt;Você pode ter várias route tables na VPC.&lt;br&gt;Cada route table pode ser associada a nenhuma, uma ou várias subnets.&lt;br&gt;Mas cada subnet só pode ter &lt;strong data-start=&quot;357&quot; data-end=&quot;364&quot;&gt;uma&lt;/strong&gt; route table.&lt;br&gt;&lt;br&gt;Internet Gateway (IGW)&lt;br&gt;Se o tráfego sai para fora da VPC e precisa ir para a internet.&lt;br&gt;Se existe uma rota &lt;code data-start=&quot;1301&quot; data-end=&quot;1318&quot;&gt;0.0.0.0/0 → IGW&lt;/code&gt;, essa subnet se torna pública.&lt;/p&gt;&lt;p data-start=&quot;934&quot; data-end=&quot;1168&quot;&gt;&lt;/p&gt;&lt;p data-start=&quot;934&quot; data-end=&quot;1168&quot;&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="340" width="410" x="1050" y="90" as="geometry" />
+        <mxCell id="muRmjjpcNUeptl6fADVg-5" parent="1" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;p data-start=&quot;426&quot; data-end=&quot;634&quot;&gt;A VPC serve para criar um domínio de rede isolado só seu dentro da AWS. Controla roteamento macro, tabelas de rota, segurança mais ampla e conexão com o mundo externo (internet, peering, VPN, Direct Connect).&lt;/p&gt;&lt;p data-start=&quot;636&quot; data-end=&quot;932&quot;&gt;A subnet serve para dividir essa rede em zonas menores e específicas. Cada subnet fica presa a uma única AZ. Você decide se ela é pública (rota para internet através de um IGW) ou privada (sem rota direta para internet). Ela organiza suas cargas e define onde cada coisa pode existir fisicamente.&lt;br&gt;&lt;br&gt;Route Table&lt;br&gt;Você pode ter várias route tables na VPC.&lt;br&gt;Cada route table pode ser associada a nenhuma, uma ou várias subnets.&lt;br&gt;Mas cada subnet só pode ter &lt;strong data-start=&quot;357&quot; data-end=&quot;364&quot;&gt;uma&lt;/strong&gt; route table.&lt;br&gt;&lt;br&gt;Internet Gateway (IGW)&lt;br&gt;Se o tráfego sai para fora da VPC e precisa ir para a internet.&lt;br&gt;Se existe uma rota &lt;code data-start=&quot;1301&quot; data-end=&quot;1318&quot;&gt;0.0.0.0/0 → IGW&lt;/code&gt;, essa subnet se torna pública.&lt;br&gt;&lt;br&gt;NAT Gateway&lt;br&gt;Usado quando instâncias privadas precisam acessar a internet sem serem acessíveis de volta.&lt;br&gt;Então: &lt;code data-start=&quot;1466&quot; data-end=&quot;1486&quot;&gt;0.0.0.0/0 → NAT GW&lt;/code&gt;.&lt;br&gt;É a rota das subnets privadas típicas.&lt;/p&gt;&lt;p data-start=&quot;934&quot; data-end=&quot;1168&quot;&gt;&lt;/p&gt;&lt;p data-start=&quot;934&quot; data-end=&quot;1168&quot;&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="630" width="410" x="1050" y="90" as="geometry" />
         </mxCell>
         <mxCell id="gfh-0lur0iLOb4Dg9o3j-8" edge="1" parent="1" source="gfh-0lur0iLOb4Dg9o3j-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gfh-0lur0iLOb4Dg9o3j-7">
           <mxGeometry relative="1" as="geometry" />
@@ -37,11 +39,11 @@
         <mxCell id="gfh-0lur0iLOb4Dg9o3j-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="subnet private" vertex="1">
           <mxGeometry height="100" width="183.5" x="292" y="411.25" as="geometry" />
         </mxCell>
-        <mxCell id="gfh-0lur0iLOb4Dg9o3j-9" edge="1" parent="1" source="gfh-0lur0iLOb4Dg9o3j-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gfh-0lur0iLOb4Dg9o3j-7">
+        <mxCell id="gfh-0lur0iLOb4Dg9o3j-27" edge="1" parent="1" source="gfh-0lur0iLOb4Dg9o3j-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gfh-0lur0iLOb4Dg9o3j-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gfh-0lur0iLOb4Dg9o3j-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="subnet private" vertex="1">
-          <mxGeometry height="100" width="189" x="584" y="411.25" as="geometry" />
+          <mxGeometry height="100" width="189" x="668.4" y="411.25" as="geometry" />
         </mxCell>
         <mxCell id="gfh-0lur0iLOb4Dg9o3j-16" edge="1" parent="1" source="gfh-0lur0iLOb4Dg9o3j-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gfh-0lur0iLOb4Dg9o3j-15">
           <mxGeometry relative="1" as="geometry">
@@ -51,19 +53,54 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gfh-0lur0iLOb4Dg9o3j-17" connectable="0" parent="gfh-0lur0iLOb4Dg9o3j-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="se 0.0.0.0/0 roteia para o IGW" vertex="1">
+        <mxCell id="gfh-0lur0iLOb4Dg9o3j-17" connectable="0" parent="gfh-0lur0iLOb4Dg9o3j-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="0.0.0.0/0 roteia para o IGW" vertex="1">
           <mxGeometry relative="1" x="0.2781" y="-2" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gfh-0lur0iLOb4Dg9o3j-6" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.route_table;" value="" vertex="1">
-          <mxGeometry height="47.5" width="48.75" x="501.25" y="121.25" as="geometry" />
+          <mxGeometry height="47.5" width="48.75" x="540" y="121.25" as="geometry" />
+        </mxCell>
+        <mxCell id="gfh-0lur0iLOb4Dg9o3j-21" edge="1" parent="1" source="gfh-0lur0iLOb4Dg9o3j-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gfh-0lur0iLOb4Dg9o3j-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="435" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gfh-0lur0iLOb4Dg9o3j-22" connectable="0" parent="gfh-0lur0iLOb4Dg9o3j-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="0.0.0.0/0 aponta pro NAT" vertex="1">
+          <mxGeometry relative="1" x="-0.1387" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gfh-0lur0iLOb4Dg9o3j-23" edge="1" parent="1" source="gfh-0lur0iLOb4Dg9o3j-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gfh-0lur0iLOb4Dg9o3j-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="574" y="380" />
+              <mxPoint x="819" y="380" />
+            </Array>
+            <mxPoint x="660" y="380" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gfh-0lur0iLOb4Dg9o3j-24" connectable="0" parent="gfh-0lur0iLOb4Dg9o3j-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="0.0.0.0/0 aponta pro NAT" vertex="1">
+          <mxGeometry relative="1" x="-0.6478" y="2" as="geometry">
+            <mxPoint x="29" y="3" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="gfh-0lur0iLOb4Dg9o3j-7" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.route_table;" value="" vertex="1">
-          <mxGeometry height="47.5" width="48.75" x="501.25" y="601.25" as="geometry" />
+          <mxGeometry height="47.5" width="48.75" x="170" y="437.5" as="geometry" />
         </mxCell>
         <mxCell id="gfh-0lur0iLOb4Dg9o3j-15" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.internet_gateway;" value="Internet&#xa;gateway" vertex="1">
           <mxGeometry height="50" width="50" x="130" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gfh-0lur0iLOb4Dg9o3j-18" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.nat_gateway;" value="NAT gateway" vertex="1">
+          <mxGeometry height="50" width="50" x="410" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="gfh-0lur0iLOb4Dg9o3j-19" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.nat_gateway;" value="NAT gateway" vertex="1">
+          <mxGeometry height="50" width="50" x="794.4" y="276.25" as="geometry" />
+        </mxCell>
+        <mxCell id="gfh-0lur0iLOb4Dg9o3j-26" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.route_table;" value="" vertex="1">
+          <mxGeometry height="47.5" width="48.75" x="550" y="437.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
